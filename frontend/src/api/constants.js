@@ -1,0 +1,1 @@
+export const FETCH_STOCK_API_URL = ticker => process.env.REACT_APP_API_URL + `?ticker=${ticker}`;
